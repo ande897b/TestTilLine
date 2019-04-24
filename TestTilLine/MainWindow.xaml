@@ -5,18 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TestTilLine"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="800">
-    <Grid>
+        Title="MainWindow" Height="320" Width="800">
+    <Grid Margin="0,0,0,-13">
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="153" Margin="50,50,0,0" Stroke="Black" VerticalAlignment="Top" Width="700"/>
         <Rectangle Fill="#000000" Height="1" Margin="0,202,42,0" Stroke="Black" VerticalAlignment="Top" HorizontalAlignment="Right" Width="700"/>
         <Label x:Name="label" Content="Skibhus" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="textBox" FontSize="10" HorizontalAlignment="Left" Height="20" Margin="50,76,0,0" TextWrapping="Wrap" Text="Mandag 01.01.2019" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="textBox10" FontSize="10" HorizontalAlignment="Left" Height="20" Margin="150,76,0,0" TextWrapping="Wrap" Text="Tirsdag 01.01.2019" VerticalAlignment="Top" Width="100" />
-        <TextBox x:Name="textBox11" FontSize="10" HorizontalAlignment="Left" Height="20" Margin="250,76,0,0" TextWrapping="Wrap" Text="Onsdag 01.01.2019" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="textBox12" FontSize="10" HorizontalAlignment="Left" Height="20" Margin="350,76,0,0" TextWrapping="Wrap" Text="Torsdag 01.01.2019" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="textBox13" FontSize="10" HorizontalAlignment="Left" Height="20" Margin="450,76,0,0" TextWrapping="Wrap" Text="Fredag 01.01.2019" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="textBox14" FontSize="10" HorizontalAlignment="Left" Height="20" Margin="550,76,0,0" TextWrapping="Wrap" Text="Lørdag 01.01.2019" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="textBox15" FontSize="10" HorizontalAlignment="Left" Height="20" Margin="650,76,0,0" TextWrapping="Wrap" Text="Søndag 01.01.2019" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="textBox10" FontSize="10" HorizontalAlignment="Left" Height="20" Margin="150,76,0,0" TextWrapping="Wrap" Text="Tirsdag 02.01.2019" VerticalAlignment="Top" Width="100" />
+        <TextBox x:Name="textBox11" FontSize="10" HorizontalAlignment="Left" Height="20" Margin="250,76,0,0" TextWrapping="Wrap" Text="Onsdag 03.01.2019" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="textBox12" FontSize="10" HorizontalAlignment="Left" Height="20" Margin="350,76,0,0" TextWrapping="Wrap" Text="Torsdag 04.01.2019" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="textBox13" FontSize="10" HorizontalAlignment="Left" Height="20" Margin="450,76,0,0" TextWrapping="Wrap" Text="Fredag 06.01.2019" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="textBox14" FontSize="10" HorizontalAlignment="Left" Height="20" Margin="550,76,0,0" TextWrapping="Wrap" Text="Lørdag 07.01.2019" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="textBox15" FontSize="10" HorizontalAlignment="Left" Height="20" Margin="650,76,0,0" TextWrapping="Wrap" Text="Søndag 08.01.2019" VerticalAlignment="Top" Width="100"/>
         <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="50,96,0,0" VerticalAlignment="Top" Width="100">
             <ComboBoxItem Content="Kristoffer" HorizontalAlignment="Left" Width="98"/>
             <ComboBoxItem Content="Line" HorizontalAlignment="Left" Width="98"/>
